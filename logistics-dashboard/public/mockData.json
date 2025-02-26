@@ -1,0 +1,7 @@
+[
+  { "id": 1, "status": "In Transit", "destination": "Lagos" },
+  { "id": 2, "status": "Pending", "destination": "Abuja" },
+  { "id": 3, "status": "Pending", "destination": "Kano" },
+  { "id": 4, "status": "Delivered", "destination": "Rivers" },
+  { "id": 5, "status": "In Transit", "destination": "Oyo" }
+]
