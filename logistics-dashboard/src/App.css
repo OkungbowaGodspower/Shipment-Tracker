@@ -91,10 +91,19 @@ h3 {
   color: var(--text);
 }
 
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block !important;
+}
+
 .shipment-list {
   padding: 1rem;
   background-color: var(--background);
   color: var(--text);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .shipment-item {
@@ -104,6 +113,7 @@ h3 {
   border-radius: 5px;
   background-color: var(--background);
   color: var(--text);
+  display: grid;
 }
 
 .theme-toggle {
@@ -124,6 +134,9 @@ h3 {
   .logo img {
     width: 32px;
     height: 32px;
+  }
+  .shipment-list {
+    display: block;
   }
 }
 
